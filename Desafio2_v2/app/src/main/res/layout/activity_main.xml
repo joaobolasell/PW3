@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mFraco"
+    tools:context=".view.MainActivity">
+
+    <ListView
+        android:id="@+id/listaMenu"
+        android:layout_width="317dp"
+        android:layout_height="432dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/rounded_listview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.324" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="273dp"
+        android:layout_height="258dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/logo_do_app"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cafe_java" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

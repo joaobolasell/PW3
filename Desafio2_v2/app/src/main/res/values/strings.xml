@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Desafio2</string>
+
+    <string name="tarefa">Nome Tarefa</string>
+    <string name="add_cafe">Adicionar Café</string>
+    <string name="view_cafes">Ver Cafés</string>
+    <string name="logo_do_app">Logo do App</string>
+    <string name="cadastrar_caf">Cadastrar Café</string>
+    <string name="nome_do_caf">Nome do Café</string>
+    <string name="descri_o">Descrição</string>
+    <string name="valor">Valor</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="pre_o">Preço: R$ </string>
+    <string name="compartilhar">Compartilhar</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mForte">#784421</color>
+    <color name="mMedio">#A27B57</color>
+    <color name="mFraco">#E1D4C6</color>
+    <color name="mLeve">#C4B09D</color>
+
+</resources>
