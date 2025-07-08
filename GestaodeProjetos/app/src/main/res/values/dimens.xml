@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="am_padding">16dp</dimen>
+    <dimen name="am_btLogin_marginTop">16dp</dimen>
+    <dimen name="am_marginEnd">16dp</dimen>
+    <dimen name="am_marginStart">16dp</dimen>
+
+
+
+
+
+
+</resources>
