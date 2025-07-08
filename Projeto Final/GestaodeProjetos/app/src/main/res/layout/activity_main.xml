@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/am_padding"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logoif"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <TextView
+        android:id="@+id/txtAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_nome"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="32dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/lEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:layout_marginStart="@dimen/am_marginStart"
+        android:layout_marginEnd="@dimen/am_marginEnd"/>
+
+    <EditText
+        android:id="@+id/lSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/senha_hint"
+        android:inputType="textPassword"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="@dimen/am_marginStart"
+        android:layout_marginEnd="@dimen/am_marginEnd"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_login"
+        android:layout_marginTop="@dimen/am_btLogin_marginTop"
+        android:backgroundTint="@color/verde_if"
+        android:layout_marginStart="@dimen/am_marginStart"
+        android:layout_marginEnd="@dimen/am_marginEnd"/>
+
+
+
+</LinearLayout>
+
+

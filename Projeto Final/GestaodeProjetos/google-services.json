@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "993920655180",
+    "project_id": "appgestaoprojetos-687c9",
+    "storage_bucket": "appgestaoprojetos-687c9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993920655180:android:6e7abc8f5f2a39daa1b9e9",
+        "android_client_info": {
+          "package_name": "com.jalfredo.gestaodeprojetos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCecLBfuOqfLf860t14wZHMGefO35dgmB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
