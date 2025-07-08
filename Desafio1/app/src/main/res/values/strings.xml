@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Desafio1</string>
+
+
+    <string name="lbl_bt_compartilhar">Compartilhar</string>
+
+
+    <string name="titulo">Minhas Viagens</string>
+
+    <string name="tituloLagoPalmas">Lago Palmas - TO</string>
+    <string name="tituloRioSono">Rio Sono - Jalapão-TO</string>
+    <string name="tituloSanJavier">Rio Uruguai - San Javier-Argentina</string>
+
+    <string name="txtJalapao">texto</string>
+
+
+</resources>
